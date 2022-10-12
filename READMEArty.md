@@ -1,7 +1,7 @@
 # proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano
 proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created by GitHub Classroom
 
-HARDENING DE UBUNTU
+SPRINT 1 - HARDENING DE UBUNTU
 
 Iniciamos el Sprint de hardening instalando en una máquina virtual Ubuntu Server 22.04  con interfaz gráfica.
 
@@ -11,7 +11,10 @@ Después visualizamos el video en Youtube del seminario de INCIBE para comenzar 
 A continuación empezamos con el apartado de asegurar las configuraciones globales. 
 Este apartado tiene varios puntos.
 
+ASEGURA LAS CONFIGURACIONES GLOBALES
+
 1. Configurar arranque del GRUB. 
+
 Es un aspecto importante en las tareas de Hardening ya que si la configuración no es segura un atacante con acceso al mismo podría vulnerar el servidor y podría ejecutar comandos como usuario root.
 Para realizar una buena configuración del arranque debermos realizar lo siguiente:
 - Establecer una contraseña de arranque
@@ -75,6 +78,21 @@ Una vez asignada la contraseña al usuario root debemos configurar los permisos 
 Podemos comprobar con el comando stat /boot/grub/grub.cfg el estado del archivo grub.cfg 
 
 ![recorte permisos Single User y comprobación del archivo con stat](https://user-images.githubusercontent.com/92945214/195317823-5bdb2496-4a2c-415b-a7d1-41000d34b213.png)
+
+Aquí concluyen las tareas incluidas en Asegurar las configuraciones globales.
+
+
+CONFIGURACIÓN DE USUARIOS Y GRUPOS. CREA UN USUARIO ADMINISTRADOR CON TU NOMBRE, Y AÑADE ESTE AL GRUPO DE SUDOERS. ADEMÁS, APLICA UNA POLÍTICA DE CONTRASEÑA ADECUADA.
+
+1. COMPLEJIDAD
+2. REUTILIZACIÓN DE CONTRASEÑAS
+3. ALMACENAMIENTO DE CONTRASEÑAS. COMPRUEBA COMO UN HASH PUEDE SER ROTO SI EL CIFRADO NO ES EL ADECUADO. SIGUE ESTE TUTORIAL
+4. AHORA YA HAS EVIDENCIADO LA IMPORTANCIA DE REALIZAR ALMACENAMIENTO SEGURO DE CONTRASEÑAS COMO POR EJEMPLO SHA512. UNA VEZ ESTABLECIDO VUELVE A PROCEDER AL ATAQUE.
+5. CONFIGURACIÓN DEL ENTORNO (CADUCIDAD Y CAMBIO DE CONTRASEÑA, TIMEOUT DE INACTIVIDAD, BLOQUEO DE CUENTA TRAS VARIOS INTENTOS, ETC)
+
+
+
+ACTUALIZACIONES DE SOFTWARE
 
 
 
