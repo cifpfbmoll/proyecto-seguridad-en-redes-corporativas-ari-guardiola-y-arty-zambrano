@@ -85,7 +85,18 @@ Aquí concluyen las tareas incluidas en Asegurar las configuraciones globales.
 CONFIGURACIÓN DE USUARIOS Y GRUPOS. CREA UN USUARIO ADMINISTRADOR CON TU NOMBRE, Y AÑADE ESTE AL GRUPO DE SUDOERS. ADEMÁS, APLICA UNA POLÍTICA DE CONTRASEÑA ADECUADA.
 
 Para la configuración de usuarios y grupos y también de su entorno, se tratarán en este punto  los aspectos de configuración de sesión, autenticación y priviliegios de ejecución.
-Configuración de contraseña. Se deben establecer los siguientes parámetros complejidad, reutilización de contraseñas, almacenamiento, caducidad y cambio de contraseña.
+
+Crearemos un usuario administrador y lo añadiremos al grupo de sudoers.
+Para crear un nuevo usuario con privilegios de root añadimos primero el usuario con el comando adduser [nombre usuario]
+después nos pedirá introducir una contraseña una vez introducida la contraseña nos pedirá más información sobre el usuario añadido.
+
+![recorte añadir usuario](https://user-images.githubusercontent.com/92945214/195336273-5eee68c9-8736-4f3f-aeb1-05c04e9bb8ff.png)
+
+![recorte añadir contraseña e información adicional](https://user-images.githubusercontent.com/92945214/195336850-31a0cbc6-5f9a-4287-afcc-5210f54b1094.png)
+
+
+
+Seguidamente realizaremos la configuración de contraseña. Se deben establecer los siguientes parámetros complejidad, reutilización de contraseñas, almacenamiento, caducidad y cambio de contraseña.
 
 1. COMPLEJIDAD
 Para la complejidad de contraseñas debemos instalar el siguiente paquete libpam-pwquality, utilizaremos el comando apt install libpam-pwquality.
