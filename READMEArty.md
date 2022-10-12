@@ -119,12 +119,9 @@ A continuación para poner el numero de intentos fallidos antes de que se muestr
 
 ![recorte editar archivo common-password](https://user-images.githubusercontent.com/92945214/195332297-7a8b1133-1f9b-472c-a25b-12fcbf5bff42.png)
 
+Una vez dentro del archivo buscamos la línea que contenga retry deberíamos configurar este parámetro a 3 o menos. Lo configuraremos con 3 intentos antes de que salga el mensaje de error.
 
-
-
-
-
-
+![recorte password retry](https://user-images.githubusercontent.com/92945214/195332897-29b363e2-9ce9-4a23-bdf0-28b28a4361e5.png)
 
 
 2. REUTILIZACIÓN DE CONTRASEÑAS
