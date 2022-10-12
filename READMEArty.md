@@ -84,11 +84,53 @@ Aquí concluyen las tareas incluidas en Asegurar las configuraciones globales.
 
 CONFIGURACIÓN DE USUARIOS Y GRUPOS. CREA UN USUARIO ADMINISTRADOR CON TU NOMBRE, Y AÑADE ESTE AL GRUPO DE SUDOERS. ADEMÁS, APLICA UNA POLÍTICA DE CONTRASEÑA ADECUADA.
 
+Para la configuración de usuarios y grupos y también de su entorno, se tratarán en este punto  los aspectos de configuración de sesión, autenticación y priviliegios de ejecución.
+Configuración de contraseña. Se deben establecer los siguientes parámetros complejidad, reutilización de contraseñas, almacenamiento, caducidad y cambio de contraseña.
+
 1. COMPLEJIDAD
+Para la complejidad de contraseñas debemos instalar el siguiente paquete libpam-pwquality, utilizaremos el comando apt install libpam-pwquality.
+
+![recorte instalación libpam-pwquality](https://user-images.githubusercontent.com/92945214/195324656-904bd6bc-0a2a-475d-a430-d4fad8b4aa4b.png)
+
+Seguidamente tenemos que editar el archivo pwquality.conf y se deben cambiar los siguientes valores.
+
+![recorte editar pwquality.conf](https://user-images.githubusercontent.com/92945214/195329142-25fcaf55-bb12-4ec0-be36-778eba99a6e5.png)
+
+![recorte archivo pwquality.cont ](https://user-images.githubusercontent.com/92945214/195329370-d346887e-e65e-4c39-9c14-415464cf2a6c.png)
+
+Los valores que se deben cambiar en el archivo pwquality.conf son los siguientes:
+minlen se debe cambiar minlen que por defecto tiene el número 8 y cambiaremos a
+minlen = 14 
+de esta manera la contraseña deberá tener un mínimo de 14 caracteres.
+
+![recorte minlen](https://user-images.githubusercontent.com/92945214/195330981-3c7ece5a-5163-4efc-b85b-888d9ab0ec7c.png)
+
+También cambiaremos minclass que por defecto tiene el número 0 y lo cambiaremos a
+minclass = 4
+de esta manera la contraseña debera tener al menos un caracter de los 4 grupos que son: números, mayúsculas, minúsculas y símbolos.
+!!!ATENCIÓN¡¡¡ si al editar el fichero estas líneas están comentadas deberemos descomentarlas.
+
+
+![recorte minclass](https://user-images.githubusercontent.com/92945214/195331069-9c733627-093b-4b8f-8c44-2305ea2aa6ca.png)
+
+A continuación para poner el numero de intentos fallidos antes de que se muestre el mensaje de error, deberemos editar el siguiente fichero en la siguiente ruta /etc/pam.d/common-password
+
+![recorte archivo common-password](https://user-images.githubusercontent.com/92945214/195332100-e20e2b02-081a-43e4-8e20-7195e6e38e3b.png)
+
+![recorte editar archivo common-password](https://user-images.githubusercontent.com/92945214/195332297-7a8b1133-1f9b-472c-a25b-12fcbf5bff42.png)
+
+
+
+
+
+
+
+
+
 2. REUTILIZACIÓN DE CONTRASEÑAS
-3. ALMACENAMIENTO DE CONTRASEÑAS. COMPRUEBA COMO UN HASH PUEDE SER ROTO SI EL CIFRADO NO ES EL ADECUADO. SIGUE ESTE TUTORIAL
-4. AHORA YA HAS EVIDENCIADO LA IMPORTANCIA DE REALIZAR ALMACENAMIENTO SEGURO DE CONTRASEÑAS COMO POR EJEMPLO SHA512. UNA VEZ ESTABLECIDO VUELVE A PROCEDER AL ATAQUE.
-5. CONFIGURACIÓN DEL ENTORNO (CADUCIDAD Y CAMBIO DE CONTRASEÑA, TIMEOUT DE INACTIVIDAD, BLOQUEO DE CUENTA TRAS VARIOS INTENTOS, ETC)
+4. ALMACENAMIENTO DE CONTRASEÑAS. COMPRUEBA COMO UN HASH PUEDE SER ROTO SI EL CIFRADO NO ES EL ADECUADO. SIGUE ESTE TUTORIAL
+5. AHORA YA HAS EVIDENCIADO LA IMPORTANCIA DE REALIZAR ALMACENAMIENTO SEGURO DE CONTRASEÑAS COMO POR EJEMPLO SHA512. UNA VEZ ESTABLECIDO VUELVE A PROCEDER AL ATAQUE.
+6. CONFIGURACIÓN DEL ENTORNO (CADUCIDAD Y CAMBIO DE CONTRASEÑA, TIMEOUT DE INACTIVIDAD, BLOQUEO DE CUENTA TRAS VARIOS INTENTOS, ETC)
 
 
 
