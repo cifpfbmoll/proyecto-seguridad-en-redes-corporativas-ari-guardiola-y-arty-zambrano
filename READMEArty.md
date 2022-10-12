@@ -43,7 +43,11 @@ Una vez hecho esto hacemos un update al GRUB
 ![recorte parámetros cambiados archivo grub](https://user-images.githubusercontent.com/92945214/195310832-7f5d3deb-3095-4ada-ab4b-788812a53b80.png)
 ![recorte update grub](https://user-images.githubusercontent.com/92945214/195311661-b1505205-bf08-4d07-9d2a-f2dc2cbbc0bc.png)
 
-Una vez realizado todo lo anterior reiniciamos el sistema y comprobamos que nos aparece el menú del gestor de arranque y que nos pide la contraseña que hemos configurado en pasos anteriores.
+Una vez realizado todo lo anterior reiniciamos el sistema y comprobamos que nos aparece el menú del gestor de arranque, entramos en el modo recovery entramos en actualizar gestor de arranque y comprobamos que nos pide la contraseña que hemos configurado en pasos anteriores.
+
+![recorte entrar en revovery mode](https://user-images.githubusercontent.com/92945214/195312621-fc6b9ce7-e21b-4a22-af2a-4d8cea2f90b9.png)
+![recorte menu gestor de arranque](https://user-images.githubusercontent.com/92945214/195312986-7c1bea16-cccf-490e-8db3-47f65f0c8d95.png)
+![recorte solicitud de contraseña root para mantenimiento](https://user-images.githubusercontent.com/92945214/195313535-cfe2bf05-81b6-4fcd-8605-93d0659bebee.png)
 
 
 
@@ -52,11 +56,4 @@ Una vez realizado todo lo anterior reiniciamos el sistema y comprobamos que nos 
 
 
 
-
-
-
-
-
-
- de pantalla)
 Para comprobar que ha tenido éxito nuestra configuración del GRUB debemos configurar el acceso al gestor de arranque ya que cuando iniciamos el ordenador éste permanece oculto y no nos lo muestra. Una vez realizada esta operación (ver capturas de pantalla) podemos comprobar que todas las operaciones de hardening que hemos realizado funcionan correctamente.   
