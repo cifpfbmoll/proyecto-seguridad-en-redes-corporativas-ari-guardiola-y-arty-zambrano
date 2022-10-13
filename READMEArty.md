@@ -157,6 +157,9 @@ Para configurarlo debemos editar el fichero /etc/pam.d/common-password y debemos
 "password [success =11  default=ignore ] pam_unix.so  obscure  use_authtok  try_first_pass sha512"
 Si no está establecido el algoritmo lo debemos establecer el algoritmo y forzar que todos los usuarios cambien su contraseña.
 
+![recorte algoritmo sha512](https://user-images.githubusercontent.com/92945214/195525783-9b4a2288-4539-4719-832b-e81849ec5e95.png)
+
+
 
 
 
