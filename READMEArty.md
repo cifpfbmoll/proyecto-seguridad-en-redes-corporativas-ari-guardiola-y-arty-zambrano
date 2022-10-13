@@ -165,10 +165,28 @@ Si no está establecido el algoritmo lo debemos establecer el algoritmo y forzar
 
 
 
-5. AHORA YA HAS EVIDENCIADO LA IMPORTANCIA DE REALIZAR ALMACENAMIENTO SEGURO DE CONTRASEÑAS COMO POR EJEMPLO SHA512. UNA VEZ ESTABLECIDO VUELVE A PROCEDER AL ATAQUE.
-6. CONFIGURACIÓN DEL ENTORNO (CADUCIDAD Y CAMBIO DE CONTRASEÑA, TIMEOUT DE INACTIVIDAD, BLOQUEO DE CUENTA TRAS VARIOS INTENTOS, ETC)
+4. AHORA YA HAS EVIDENCIADO LA IMPORTANCIA DE REALIZAR ALMACENAMIENTO SEGURO DE CONTRASEÑAS COMO POR EJEMPLO SHA512. UNA VEZ ESTABLECIDO VUELVE A PROCEDER AL ATAQUE.
 
 
+5. CONFIGURACIÓN DEL ENTORNO (CADUCIDAD Y CAMBIO DE CONTRASEÑA, TIMEOUT DE INACTIVIDAD, BLOQUEO DE CUENTA TRAS VARIOS INTENTOS, ETC)
+
+
+El período de caducidad de una contraseña se debe establecer como mínimo cada 90 días y en el caso de servidores muy críticos cada 45 días. Para editar la caducidad de la contraseña debemos ir al fichero siguiente:
+/etc/login.defs
+se deben establecer los siguientes valores: PASS_MAX_DAYS  que por defecto pone 99999 deberemos cambiarlo a 90. Querdaría de la siguiente manera: PASS_MAX_DAYS 90. De esta manera la contraseña caducará cada 90 días. 
+
+![recorte caducidad contraseña](https://user-images.githubusercontent.com/92945214/195585874-a760838d-6dab-4932-be5f-79b29c923f89.png)
+
+![recorte caducidad contraseña 90 días](https://user-images.githubusercontent.com/92945214/195586352-9bd8de0d-3427-4dfc-8ac5-8915c93fbf41.png)
+
+
+
+
+
+En la configuración del entorno empezaremos con la caducidad y el cambio de contraseña
+El cambio de contraseña no puede establecerse en períodos de tiempo menores de un día
+
+El perío 
 
 ACTUALIZACIONES DE SOFTWARE
 
