@@ -255,28 +255,6 @@ A partir de aquí solo podrán ejecutar el comando su los usuarios que pertenezc
 
 
 
-
-
-
-
-
-
-
-
-
-
-En la configuración del entorno empezaremos con la caducidad y el cambio de contraseña
-El cambio de contraseña no puede establecerse en períodos de tiempo menores de un día
-
-El perío 
-
 ACTUALIZACIONES DE SOFTWARE
-
-
-
-
-
-
-
 
 Para comprobar que ha tenido éxito nuestra configuración del GRUB debemos configurar el acceso al gestor de arranque ya que cuando iniciamos el ordenador éste permanece oculto y no nos lo muestra. Una vez realizada esta operación (ver capturas de pantalla) podemos comprobar que todas las operaciones de hardening que hemos realizado funcionan correctamente.   
