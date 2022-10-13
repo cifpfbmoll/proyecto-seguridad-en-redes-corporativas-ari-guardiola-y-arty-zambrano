@@ -155,7 +155,7 @@ password required pam_pwhistory.so remember=5
 El almacenamiento de contraseñas debe ser cifrado con un algoritmo robusto se recomienda el sha512.
 Para configurarlo debemos editar el fichero /etc/pam.d/common-password y debemos comprobar la línea siguiente:
 "password [success =11  default=ignore ] pam_unix.so  obscure  use_authtok  try_first_pass sha512"
-Si no está establecido el algoritmo lo debemos establecer
+Si no está establecido el algoritmo lo debemos establecer el algoritmo y forzar que todos los usuarios cambien su contraseña.
 
 
 
