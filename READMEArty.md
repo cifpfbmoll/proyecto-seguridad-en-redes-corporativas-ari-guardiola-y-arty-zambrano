@@ -221,9 +221,28 @@ Donde deny indica el número de intentos tras los cuales se bloqueará la cuenta
 Seguidamente accedemos al siguiente fichero:
 /etc/pam.d/common-account
 y añadimos, si no lo están ya, las siguientes líneas:
+account requisite pam-deny.so
+account required pam.tally.so
 
 
 ![recorte archivo common-account](https://user-images.githubusercontent.com/92945214/195716534-54d9ac98-a5c9-40c4-a215-0f7cfa24b09f.png)
+
+![recorte líneas añadidas en common-account](https://user-images.githubusercontent.com/92945214/195717066-b30f8bbe-ecc8-46d4-9bd1-c3d557478403.png)
+
+Las cuentas de servicio deben estar configuradas para no establecer consolas interactivas, es decir, que no puedan autenticarse en el sistema y ejecutar comandos.
+Por eso  deben estar todas ellas configuradas al tipo de consola establecida nologin.
+Debemos acceder al siguiente fichero para configurar esta opción:
+/etc/passwd
+Como se puede apreciar en la captura de pantalla esta configuración ya viene por defecto. Todas vienen con el tipo establecido nologin.
+
+![recorte nologin](https://user-images.githubusercontent.com/92945214/195718242-b18129a8-1aa0-46a2-9c4d-764d1685ba77.png)
+
+El parámetro de configuración umask establece los permisos por defecto que se le asignan a un fichero crados pou un usuario. El valor ideal para este parámetro es 027 que quiere decir control total para el creador del fichero. Permisos de lectura y ejecución para los usuarios pertenecientes al grupo y acceso denegado para el resto de ususarios.
+Para modificar estos valores es necedario añadir o modificar el comando umask 027 en los siguientes ficheros:
+/etc/bash.bashrc
+/etc/profile
+y en todos los scripts del directorio:
+/etc/profile.d/
 
 
 
