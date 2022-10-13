@@ -183,6 +183,18 @@ De esta manera la contraseña caducará cada 90 días.
 
 ![recorte caducidad contraseña 90 días](https://user-images.githubusercontent.com/92945214/195587136-eb97c04f-b3f2-4ec5-b145-76b71ac17899.png)
 
+Otra cosa a tener en cuenta en la configuración del entorno es el bloqueo de cuentas por inactividad ya que puede suponer una vulnerabilidad en el sistema. Se recomienda que este valor se fije en 30 días como máximo.
+Para configurar este parámetro cuando creamos una nueva cuenta de usuario tenemos que utilizar el siguiente comando:
+useradd -D -f 30
+
+Para cambiar el parámetro si los ususarios ya existen se debe utilizar otro comando que es:
+chage  -inactive 30 "nombre de usuario"
+
+
+Otro aspecto a tener en cuenta es el TIMEOUT DE INACTIVIDAD para la consola de comandos, es decir, cuánto tiempo podemos tener la consola abierta sin actividad por parte del usuario. Por defecto esta característica no tiene ningún valor establecido. Si tenemos que cambiar este parámetro para editarlo necesitaremos acceder al siguiente fichero:
+/etc/bash.bashrc
+y tendremos que añadir las siguientes líneas.
+
 
 
 
