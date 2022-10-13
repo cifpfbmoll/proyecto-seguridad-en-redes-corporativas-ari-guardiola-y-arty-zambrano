@@ -244,6 +244,19 @@ Para modificar estos valores es necedario añadir o modificar el comando umask 0
 y en todos los scripts del directorio:
 /etc/profile.d/
 
+Restringir el acceso al comando su
+El comando su permite ejecutar comandos en nombre de otro usuario, es útil en según que situaciones que se deban elevar privilegios para ciertas tareas, el problema es que no permite el control de los comandos que se ejecutan no se pueden especificar los comandos permitidos. Para estas tareas se desarrolló la herramienta sudo, que permite un control de los comandos ejecutados. Al restrigir el uso de su y sudo en su lugar, porporciona a los administradores del sistema un mejor control de la ejecución de comandos con privilegios altos. Además sudo proporciona un mejor mecanismo de registro y auditoría ya que puede registra cada comando ejecutado mientra que con su solo queda registrada la ejecución de éste. 
+Para restringir el uso de su y utilizar sudo, se debe crear un grupo vacío, en este caso lo vamos a llamar "sugroup" realizamos esto con el comando:
+groupadd sugroup
+y en el fichero siguiente:
+/etc/pam.d/su  añadiremos la siguiente línea:
+auth required pam_wheel.so use_uid group=sugroup
+A partir de aquí solo podrán ejecutar el comando su los usuarios que pertenezcan al grupo "sugroup"
+
+
+
+
+
 
 
 
