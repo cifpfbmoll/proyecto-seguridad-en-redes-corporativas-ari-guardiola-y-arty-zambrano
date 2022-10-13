@@ -191,9 +191,15 @@ Para cambiar el parámetro si los ususarios ya existen se debe utilizar otro com
 chage  -inactive 30 "nombre de usuario"
 
 
-Otro aspecto a tener en cuenta es el TIMEOUT DE INACTIVIDAD para la consola de comandos, es decir, cuánto tiempo podemos tener la consola abierta sin actividad por parte del usuario. Por defecto esta característica no tiene ningún valor establecido. Si tenemos que cambiar este parámetro para editarlo necesitaremos acceder al siguiente fichero:
+Otro aspecto a tener en cuenta es el TIMEOUT DE INACTIVIDAD para la consola de comandos, es decir, cuánto tiempo podemos tener la consola abierta sin actividad por parte del usuario. 
+No congigurar esta opción puede ocasionar que se produzcan accesos no autorizados si un usuario dejase su puesto desatendido, sin bloquear y con una conexión abierta. 
+Esta característica, por defecto, no tiene ningún valor establecido. Si tenemos que cambiar este parámetro para editarlo necesitaremos acceder al siguiente fichero:
 /etc/bash.bashrc
-y tendremos que añadir las siguientes líneas.
+y tendremos que añadir las siguientes líneas:
+readonly TMOUT=900
+export TMOUT
+
+De esta manera hemos configurado un timeout de 15 minutos 
 
 
 
