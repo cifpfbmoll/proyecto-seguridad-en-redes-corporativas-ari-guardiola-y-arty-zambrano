@@ -173,11 +173,17 @@ Si no está establecido el algoritmo lo debemos establecer el algoritmo y forzar
 
 El período de caducidad de una contraseña se debe establecer como mínimo cada 90 días y en el caso de servidores muy críticos cada 45 días. Para editar la caducidad de la contraseña debemos ir al fichero siguiente:
 /etc/login.defs
-se deben establecer los siguientes valores: PASS_MAX_DAYS  que por defecto pone 99999 deberemos cambiarlo a 90. Querdaría de la siguiente manera: PASS_MAX_DAYS 90. De esta manera la contraseña caducará cada 90 días. 
+se deben establecer los siguientes valores: PASS_MAX_DAYS  que por defecto pone 99999 deberemos cambiarlo a 90 y el PASS_MIN_DAYS que por defecto marca 0 lo cambiaremos a 1. 
+Querdaría de la siguiente manera: 
+PASS_MAX_DAYS 90   
+PASS_MIN_DAYS  1 
+De esta manera la contraseña caducará cada 90 días. 
 
 ![recorte caducidad contraseña](https://user-images.githubusercontent.com/92945214/195585874-a760838d-6dab-4932-be5f-79b29c923f89.png)
 
-![recorte caducidad contraseña 90 días](https://user-images.githubusercontent.com/92945214/195586352-9bd8de0d-3427-4dfc-8ac5-8915c93fbf41.png)
+![recorte caducidad contraseña 90 días](https://user-images.githubusercontent.com/92945214/195587136-eb97c04f-b3f2-4ec5-b145-76b71ac17899.png)
+
+
 
 
 
