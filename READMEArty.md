@@ -141,6 +141,15 @@ Una vez dentro del archivo buscamos la línea que contenga retry deberíamos con
 
 2. REUTILIZACIÓN DE CONTRASEÑAS.
 
+Para evitar la reutilización de contraseñas se debe configurar primero la cantidad de contraseñas que no se pueden utilizar. Se recomienda un valor de 5 contraseñas.
+Para ello se tiene que editar el siguiente fichero /etc/pam.d/common-password y debemos añadir la siguiente línea:
+password required pam_pwhistory.so remember=5
+
+![recorte archivo reutilizar contraseñas](https://user-images.githubusercontent.com/92945214/195523229-482d8aa2-637a-4608-8f3e-db6aff9558b8.png)
+
+![recorte añadir línea reutilizar contraseñas](https://user-images.githubusercontent.com/92945214/195523312-2e65c58d-4eea-4513-b3a9-ddcd99951de0.png)
+
+
 
 
 
