@@ -94,6 +94,10 @@ después nos pedirá introducir una contraseña una vez introducida la contrase�
 
 ![recorte añadir contraseña e información adicional](https://user-images.githubusercontent.com/92945214/195336850-31a0cbc6-5f9a-4287-afcc-5210f54b1094.png)
 
+![recorte agregar usuario a sudoers](https://user-images.githubusercontent.com/92945214/195520980-006a7131-1e8d-43af-840a-c6fb93e11973.png)
+
+
+![recorte nuevo usuario root ](https://user-images.githubusercontent.com/92945214/195521442-d9635058-57ce-4a61-85c5-919e6d9d87b9.png)
 
 
 Seguidamente realizaremos la configuración de contraseña. Se deben establecer los siguientes parámetros complejidad, reutilización de contraseñas, almacenamiento, caducidad y cambio de contraseña.
