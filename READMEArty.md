@@ -150,14 +150,18 @@ password required pam_pwhistory.so remember=5
 ![recorte añadir línea reutilizar contraseñas](https://user-images.githubusercontent.com/92945214/195523312-2e65c58d-4eea-4513-b3a9-ddcd99951de0.png)
 
 
+3. ALMACENAMIENTO DE CONTRASEÑAS. COMPRUEBA COMO UN HASH PUEDE SER ROTO SI EL CIFRADO NO ES EL ADECUADO. 
+
+El almacenamiento de contraseñas debe ser cifrado con un algoritmo robusto se recomienda el sha512.
+Para configurarlo debemos editar el fichero /etc/pam.d/common-password y debemos comprobar la línea siguiente:
+"password [success =11  default=ignore ] pam_unix.so  obscure  use_authtok  try_first_pass sha512"
+Si no está establecido el algoritmo lo debemos establecer
 
 
 
-3. 
 
 
 
-4. ALMACENAMIENTO DE CONTRASEÑAS. COMPRUEBA COMO UN HASH PUEDE SER ROTO SI EL CIFRADO NO ES EL ADECUADO. SIGUE ESTE TUTORIAL
 5. AHORA YA HAS EVIDENCIADO LA IMPORTANCIA DE REALIZAR ALMACENAMIENTO SEGURO DE CONTRASEÑAS COMO POR EJEMPLO SHA512. UNA VEZ ESTABLECIDO VUELVE A PROCEDER AL ATAQUE.
 6. CONFIGURACIÓN DEL ENTORNO (CADUCIDAD Y CAMBIO DE CONTRASEÑA, TIMEOUT DE INACTIVIDAD, BLOQUEO DE CUENTA TRAS VARIOS INTENTOS, ETC)
 
