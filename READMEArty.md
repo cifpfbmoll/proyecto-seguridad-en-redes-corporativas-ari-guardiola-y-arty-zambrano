@@ -8,8 +8,7 @@ Iniciamos el Sprint de hardening instalando en una máquina virtual Ubuntu Serve
 Después visualizamos el video en Youtube del seminario de INCIBE para comenzar a realizar nuestro Hardening de Ubuntu.
 
 
-A continuación empezamos con el apartado de asegurar las configuraciones globales. 
-Este apartado tiene varios puntos.
+Empezamos con el apartado de asegurar las configuraciones globales. Este apartado tiene varios puntos.
 
 ASEGURA LAS CONFIGURACIONES GLOBALES
 
