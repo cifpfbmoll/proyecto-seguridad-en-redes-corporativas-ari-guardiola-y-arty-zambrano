@@ -204,6 +204,26 @@ De esta manera hemos configurado un timeout de 15 minutos.
 
 ![recorte inactividd consola](https://user-images.githubusercontent.com/92945214/195592442-e7ce58db-4a2d-4e82-863c-30fdf79aab55.png)
 
+Bloqueo de cuenta tras fallos de autenticación.
+
+Se pueden realizar ataques de fuerza bruta para adivinar la contraseña de un usuario, en estos casos, se debe proteger el sistema de forma que no le sea posible al atacante realizar esta acción, pero tampoco debemos perjudicar al usuario atacado.
+Para evitar estos ataques se deberían configurar un número máximo de intentos de acceso fallidos tras los cuales se bloquea la cuenta temporalmente. Normalmente se suelen configurar el número de intentos en 5 y el tiempo que la cuenta está bloqueada de 15 minutos, ya que si se bloquease la cuenta indefinidamente se podría provocar una denegación de servicio.
+Para configurar la opción de bloqueo de cuenta por fallos de autenticación debemos editar el fichero siquiente:
+/etc/pam.d/common-auth
+y añadimos la línea:
+auth required pam-tally2.so onerr=fail audit silent deny=5 unlock_time =900
+Donde deny indica el número de intentos tras los cuales se bloqueará la cuenta y unlock_time indica el tiempo en segundo que tardará la cuenta en desbloquearse.
+
+![recorte comando configurar bloqueo](https://user-images.githubusercontent.com/92945214/195714810-91292ec9-0384-4c14-8c61-85199b28c263.png)
+
+![recorte línea para bloqueo de cuenta](https://user-images.githubusercontent.com/92945214/195715561-dae33878-0ab2-4aca-9bce-7894a8889086.png)
+
+Seguidamente accedemos al siguiente fichero:
+/etc/pam.d/common-account
+y añadimos, si no lo están ya, las siguientes líneas:
+
+
+![recorte archivo common-account](https://user-images.githubusercontent.com/92945214/195716534-54d9ac98-a5c9-40c4-a215-0f7cfa24b09f.png)
 
 
 
