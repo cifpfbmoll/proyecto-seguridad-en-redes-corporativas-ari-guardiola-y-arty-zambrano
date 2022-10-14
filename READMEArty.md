@@ -159,11 +159,6 @@ Si no está establecido el algoritmo lo debemos establecer el algoritmo y forzar
 ![recorte algoritmo sha512](https://user-images.githubusercontent.com/92945214/195525783-9b4a2288-4539-4719-832b-e81849ec5e95.png)
 
 
-
-
-
-
-
 4. AHORA YA HAS EVIDENCIADO LA IMPORTANCIA DE REALIZAR ALMACENAMIENTO SEGURO DE CONTRASEÑAS COMO POR EJEMPLO SHA512. UNA VEZ ESTABLECIDO VUELVE A PROCEDER AL ATAQUE.
 
 SE HA REALIZADO EL CAMBIO DEL ALGORITMO SHA512.
@@ -241,12 +236,14 @@ Como se puede apreciar en la captura de pantalla esta configuración ya viene po
 
 ![recorte nologin](https://user-images.githubusercontent.com/92945214/195718242-b18129a8-1aa0-46a2-9c4d-764d1685ba77.png)
 
-El parámetro de configuración umask establece los permisos por defecto que se le asignan a un fichero crados pou un usuario. El valor ideal para este parámetro es 027 que quiere decir control total para el creador del fichero. Permisos de lectura y ejecución para los usuarios pertenecientes al grupo y acceso denegado para el resto de ususarios.
+El parámetro de configuración umask establece los permisos por defecto que se le asignan a un fichero creados por un usuario. El valor ideal para este parámetro es 027 que quiere decir control total para el creador del fichero. Permisos de lectura y ejecución para los usuarios pertenecientes al grupo y acceso denegado para el resto de ususarios.
 Para modificar estos valores es necedario añadir o modificar el comando umask 027 en los siguientes ficheros:
 /etc/bash.bashrc
 /etc/profile
 y en todos los scripts del directorio:
 /etc/profile.d/
+
+
 
 Restringir el acceso al comando su
 El comando su permite ejecutar comandos en nombre de otro usuario, es útil en según que situaciones que se deban elevar privilegios para ciertas tareas, el problema es que no permite el control de los comandos que se ejecutan no se pueden especificar los comandos permitidos. Para estas tareas se desarrolló la herramienta sudo, que permite un control de los comandos ejecutados. Al restrigir el uso de su y sudo en su lugar, porporciona a los administradores del sistema un mejor control de la ejecución de comandos con privilegios altos. Además sudo proporciona un mejor mecanismo de registro y auditoría ya que puede registra cada comando ejecutado mientra que con su solo queda registrada la ejecución de éste. 
