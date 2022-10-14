@@ -258,6 +258,14 @@ auth required pam_wheel.so use_uid group=sugroup
 A partir de aquí solo podrán ejecutar el comando su los usuarios que pertenezcan al grupo "sugroup"
 
 
+![recorte grupo sugroup](https://user-images.githubusercontent.com/92945214/195881023-98715605-2d9f-4e9a-ba1f-d0eca648cd08.png)
+
+![recorte línea añadida sugroup](https://user-images.githubusercontent.com/92945214/195881418-e09d7cc0-c3dc-4192-9cf7-d4c79395809f.png)
+
+
+
+
+
 ACTUALIZACIONES DE SOFTWARE
 Las distribuciones Debian y en particular Ubuntu utilizan el sistema APT (Advanced Package Tool) para la actualización de paquetes de software.
 Estas actualizaciones deben estar basadas en las políticas establecidas y se recomienda actualizar de manera períodica.
