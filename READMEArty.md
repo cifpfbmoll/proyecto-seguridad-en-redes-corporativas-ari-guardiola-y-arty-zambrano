@@ -28,7 +28,7 @@ Una vez creada la contraseña creamos un fichero con el nombre init-pwd para gua
 
 ![recorte archivo init](https://user-images.githubusercontent.com/92945214/195300559-2dda5c2f-318c-4093-b9b6-7a11aff90da3.png)
 
-3. Establecer permisos fichero de configuración de arranque.
+3. Establecer permisos fichero de configuración de arranque..
 
 Una vez creado el fichero init-pwd le damos permisos de ejecución con el siguiente comando chmod +x init-pwd. A continuación se actualiza el grub.
 ![recorte permisos ejecución](https://user-images.githubusercontent.com/92945214/195300789-631e5db3-a93b-44b5-8979-79c0cb3d301f.png)
