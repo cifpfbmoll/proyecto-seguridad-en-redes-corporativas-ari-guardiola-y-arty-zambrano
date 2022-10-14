@@ -273,7 +273,17 @@ De los repositorios oficiales existen de varios tipos:
 MAIN RESTRICTED
 UNIVERSE
 MULTIVERSE
-Se recomienda habilitar solamente los repositorios main restricted
+Se recomienda habilitar solamente los repositorios main restricted ya que son los únicos 100% probados y con soporte. El resto de repositorios continen software que no ha sido 100% probado y no tiene soporte.
+
+![recorte tipos de repositorios](https://user-images.githubusercontent.com/92945214/195874976-5f76a7e5-bef5-477c-bb3f-4bdd85346c84.png)
+
+Para deshabilitar estos repositorios lo único que se debe hacer es comentar las líneas de los repositorios UNIVERSE y MULTIVERSE.
+
+![recorte deshabilitar repositorios](https://user-images.githubusercontent.com/92945214/195876230-00bfcf10-bd2d-4c79-91be-b0178e10855b.png)
+
+
+
+
 
 
 
