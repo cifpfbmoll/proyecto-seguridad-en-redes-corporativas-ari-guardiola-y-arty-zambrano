@@ -166,6 +166,10 @@ Si no está establecido el algoritmo lo debemos establecer el algoritmo y forzar
 
 4. AHORA YA HAS EVIDENCIADO LA IMPORTANCIA DE REALIZAR ALMACENAMIENTO SEGURO DE CONTRASEÑAS COMO POR EJEMPLO SHA512. UNA VEZ ESTABLECIDO VUELVE A PROCEDER AL ATAQUE.
 
+SE HA REALIZADO EL CAMBIO DEL ALGORITMO SHA512.
+FALTA REALIZAR EL ATAQUE PARA ROMPER EL HASH....
+
+
 
 5. CONFIGURACIÓN DEL ENTORNO (CADUCIDAD Y CAMBIO DE CONTRASEÑA, TIMEOUT DE INACTIVIDAD, BLOQUEO DE CUENTA TRAS VARIOS INTENTOS, ETC)
 
@@ -254,7 +258,6 @@ auth required pam_wheel.so use_uid group=sugroup
 A partir de aquí solo podrán ejecutar el comando su los usuarios que pertenezcan al grupo "sugroup"
 
 
-
 ACTUALIZACIONES DE SOFTWARE
 Las distribuciones Debian y en particular Ubuntu utilizan el sistema APT (Advanced Package Tool) para la actualización de paquetes de software.
 Estas actualizaciones deben estar basadas en las políticas establecidas y se recomienda actualizar de manera períodica.
@@ -280,6 +283,12 @@ Se recomienda habilitar solamente los repositorios main restricted ya que son lo
 Para deshabilitar estos repositorios lo único que se debe hacer es comentar las líneas de los repositorios UNIVERSE y MULTIVERSE.
 
 ![recorte deshabilitar repositorios](https://user-images.githubusercontent.com/92945214/195876230-00bfcf10-bd2d-4c79-91be-b0178e10855b.png)
+
+Cada vez que hagamos un cambio en el fichero de los repositorios es necesario ejecutar un apt update para actualizar los paquetes disponibles.
+Para instalar software de terceros es recomendable descargarlos siempre desde los repositorios oficiales del proveedor y mantenerlos actualizados.
+
+![recorte apt upgrade](https://user-images.githubusercontent.com/92945214/195879109-9cd924c3-d3ae-4369-98f9-45fad451e00d.png)
+
 
 
 
