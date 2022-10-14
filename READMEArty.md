@@ -264,7 +264,16 @@ A continuación configuraremos el sistema de actualizaciones.
 Configuramos Advanced Package Tool
 Se deben configurar los repositorios con fuentes fiables y nos aseguramos de que estan configuradas las claves GPG para verificar la integridad de los paquetes durante la instalación.
 Los repositorios los configuraremos desde el siguiente fichero:
-/etc/apt/sources.lis
-Por defecto vienen incluidos los repositorios oficiales y podemos añadir repositorios adicionales.
+/etc/apt/sources.list
+
+![recorte archivo recursos apt](https://user-images.githubusercontent.com/92945214/195872329-146eadba-ffab-4126-af91-e38436e249fb.png)
+
+Por defecto vienen incluidos los repositorios oficiales y podemos añadir repositorios adicionales que deben proceder de fuentes fiables y queda a criterio de las políticas establecidas.
+De los repositorios oficiales existen de varios tipos:
+MAIN RESTRICTED
+UNIVERSE
+MULTIVERSE
+Se recomienda habilitar solamente los repositorios main restricted
+
 
 
