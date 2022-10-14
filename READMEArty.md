@@ -256,5 +256,15 @@ A partir de aquí solo podrán ejecutar el comando su los usuarios que pertenezc
 
 
 ACTUALIZACIONES DE SOFTWARE
+Las distribuciones Debian y en particular Ubuntu utilizan el sistema APT (Advanced Package Tool) para la actualización de paquetes de software.
+Estas actualizaciones deben estar basadas en las políticas establecidas y se recomienda actualizar de manera períodica.
+Estas actualizaciones se pueden configurar para instalar directamente o si antes se deben aplicar a un entorno de preproducción.
 
-Para comprobar que ha tenido éxito nuestra configuración del GRUB debemos configurar el acceso al gestor de arranque ya que cuando iniciamos el ordenador éste permanece oculto y no nos lo muestra. Una vez realizada esta operación (ver capturas de pantalla) podemos comprobar que todas las operaciones de hardening que hemos realizado funcionan correctamente.   
+A continuación configuraremos el sistema de actualizaciones.
+Configuramos Advanced Package Tool
+Se deben configurar los repositorios con fuentes fiables y nos aseguramos de que estan configuradas las claves GPG para verificar la integridad de los paquetes durante la instalación.
+Los repositorios los configuraremos desde el siguiente fichero:
+/etc/apt/sources.lis
+Por defecto vienen incluidos los repositorios oficiales y podemos añadir repositorios adicionales
+
+
