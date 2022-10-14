@@ -265,6 +265,6 @@ Configuramos Advanced Package Tool
 Se deben configurar los repositorios con fuentes fiables y nos aseguramos de que estan configuradas las claves GPG para verificar la integridad de los paquetes durante la instalación.
 Los repositorios los configuraremos desde el siguiente fichero:
 /etc/apt/sources.lis
-Por defecto vienen incluidos los repositorios oficiales y podemos añadir repositorios adicionales
+Por defecto vienen incluidos los repositorios oficiales y podemos añadir repositorios adicionales.
 
 
