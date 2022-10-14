@@ -4,7 +4,7 @@ proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created b
 # SPRINT 1
 0. Instalar ubuntu server 20.04 i instalar la grafica (gnome)
 1. Asegura las configuraciones globales.
-1.1.Configuración del arranque GRUB.
+1.1. Configuración del arranque GRUB.
 1.2. Establecer una contraseña de arranque.
 1.3. Establecer permisos fichero de configuración de arranque
 1.4. Obligar al uso de contraseña en el modo “single user”
