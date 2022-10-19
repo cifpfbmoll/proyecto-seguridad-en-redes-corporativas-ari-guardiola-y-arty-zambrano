@@ -53,6 +53,12 @@ US3 Los equipos de los empleados de son ordenadores portátiles, ya que necesita
       
 6. Comprueba que si hubiera un intento de intrusión en uno de los portátiles pordrían resetear la contraseña del administrador y acceder a la cuenta.
 
+7. Ya has visto el peligro que supone el arranque de herramientas live. Aplica las medidas necesarias para contrarrestar este riesgo:
+
+      7.1 Adecuada política de contraseñas: caducidad contraseñas, longitud,           símbolos, etc.
+      7.2 Cifrado de disco.
+      7.3 Comenta como evitas el arranque de herramientas live. 
+
  
 
 
