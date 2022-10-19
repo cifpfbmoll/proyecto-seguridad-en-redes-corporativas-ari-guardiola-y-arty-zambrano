@@ -33,6 +33,8 @@ SPRINT 1 - HARDENING DE UBUNTU
 
 
 
+
+
 SPRINT 2 - HARDENING DE WINDOWS
 
 US3 Los equipos de los empleados de son ordenadores portátiles, ya que necesitan en ocasiones teletrabajar.
