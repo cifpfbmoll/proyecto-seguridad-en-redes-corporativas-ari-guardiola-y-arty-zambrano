@@ -36,13 +36,13 @@ proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created b
 
         4.1.Acceso controlado a carpetas y comprobar la protección de la carpeta de Documento del perfil del usuario.
         
-        6.2. Recuperación de datos por ransomware
+        4.2. Recuperación de datos por ransomware
         
 5. Comprueba que si hubiera un intento de intrusión en uno de los portátiles si podrían resetear la contraseña del administrador y acceder a la cuenta.
 6. Aplicar las medidas:
 
         6.1. Politica de contraseñas (caducidad, longitud,simbolos...)
         
-        8.2. Cifrado de disco
+        6.2. Cifrado de disco
      
-        10.3. Comentar como evitar el arranque de herramientas live
+        6.3. Comentar como evitar el arranque de herramientas live
