@@ -27,7 +27,7 @@ proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created b
   
 3. Actualizacion de software
 
-#SPRINT 2
+# SPRINT 2
 0. Instalar S.O Windows 10
 1. Crear otro usuario administrador y otro de empleador.
 2. Desintalar programas que no estemos usando
