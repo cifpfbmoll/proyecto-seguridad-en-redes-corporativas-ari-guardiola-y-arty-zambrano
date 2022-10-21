@@ -26,3 +26,23 @@ proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created b
         2.5. Configuración del entorno (Caducidad y cambio de contraseña, Timeout de inactividad, Bloqueo de cuenta tras varios intentos, etc)
   
 3. Actualizacion de software
+
+#SPRINT 2
+0. Instalar S.O Windows 10
+1. Crear otro usuario administrador y otro de empleador.
+2. Desintalar programas que no estemos usando
+3. Comprobar si esta habilitado el windows defender
+4. Comprobar si esta habilitado la protección contra ransomware
+
+        4.1.Acceso controlado a carpetas y comprobar la protección de la carpeta de Documento del perfil del usuario.
+        
+        6.2. Recuperación de datos por ransomware
+        
+5. Comprueba que si hubiera un intento de intrusión en uno de los portátiles si podrían resetear la contraseña del administrador y acceder a la cuenta.
+6. Aplicar las medidas:
+
+        6.1. Politica de contraseñas (caducidad, longitud,simbolos...)
+        
+        8.2. Cifrado de disco
+     
+        10.3. Comentar como evitar el arranque de herramientas live
