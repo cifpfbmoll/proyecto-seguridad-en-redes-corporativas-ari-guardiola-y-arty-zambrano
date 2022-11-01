@@ -48,17 +48,19 @@ US3 Los equipos de los empleados de son ordenadores portátiles, ya que necesita
 4. Utilizar Seguridad de Windows. Comprueba que efectivamente tienes habilitado Windows Defender.
 
 5. Comprueba que tienes habilitado la protección contra ransomware. 
-      5.1. Acceso controlado a carpetas: es sumamente importante mantenerlo              activo. Ya que esto permitirá que potenciales programas maliciosos            no pueda  tener control de tus archivos y carpetas. Además,                  tendrás opción de visualizar el historial de los bloqueos, agregar            o quitar carpetas protegidas y gestionar las aplicaciones que                tienen acceso controlado a tus archivos o carpetas. Comprueba que            tienes protegida la carpeta de Documentos del perfil de usuario,              ya que esta es la carpeta que utilizará el usuario para el trabajo            diario.  
+      5.1. Acceso controlado a carpetas: es sumamente importante mantenerlo activo. Ya que esto permitirá que potenciales programas maliciosos no pueda  tener control de tus archivos y carpetas. Además, tendrás opción de visualizar el historial de los bloqueos, agregar o quitar carpetas protegidas y gestionar las aplicaciones que    tienen acceso controlado a tus archivos o carpetas. Comprueba que tienes protegida la carpeta de Documentos del perfil de usuario, ya que esta es la carpeta que utilizará el usuario para el trabajo diario.  
       
-      5.2. Recuperación de datos por ransomware: si utilizas OneDrive, podrás            configurar y gestionar la sincronización de tus archivos y                    carpetas (para nuestro caso, no es necesario, simplemente es que              informativo este paso para que sepáis que existe). Esto será de              gran utilidad, sobre todo, si es que llegas a ser víctima de                  este tipo de ataque, ya que todos los archivos estarán en tu                  espacio en la nube. Así también, ten presente que todos los                  cambios que hagas en los archivos sincronizados, los mismos se                verán reflejados en la sincronización con OneDrive en sí.
+      5.2. Recuperación de datos por ransomware: si utilizas OneDrive, podrás configurar y gestionar la sincronización de tus archivos y carpetas (para nuestro caso, no es necesario, simplemente es que informativo este paso para que sepáis que existe). Esto será de gran utilidad, sobre todo, si es que llegas a ser víctima de        este tipo de ataque, ya que todos los archivos estarán en tu espacio en la nube. Así también, ten presente que todos los cambios que hagas en los archivos sincronizados, los mismos se verán reflejados en la sincronización con OneDrive en sí.
       
       
 6. Comprueba que si hubiera un intento de intrusión en uno de los portátiles pordrían resetear la contraseña del administrador y acceder a la cuenta.
 
 7. Ya has visto el peligro que supone el arranque de herramientas live. Aplica las medidas necesarias para contrarrestar este riesgo:
 
-      7.1 Adecuada política de contraseñas: caducidad contraseñas, longitud,           símbolos, etc.
+      7.1 Adecuada política de contraseñas: caducidad contraseñas, longitud, símbolos, etc.
+      
       7.2 Cifrado de disco.
+      
       7.3 Comenta como evitas el arranque de herramientas live. 
 
  
