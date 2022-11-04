@@ -64,3 +64,17 @@ proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created b
  
         1.3.Ten en cuenta que además de configurar la copia, es imprescindible comprobar la recuperación. Por ello se solicita una batería de pruebas con el fin de conocer el programa y comprobar funciona correctamente.
 
+2. Recuperación de datos perdisos
+
+        2.1. Leer el enlace: https://www.lavanguardia.com/tecnologia/20160806/403712293181/metodo-gutmann-barcenas-disco-duro-pp-formatear-dos-pasadas.html 
+
+        2.2. Instalar dos herramientas de recuperación estilo Recuva, y realizar una prueba para comprobar la recuperación de datos con ambos. Usar una unidad extraible (USB)i comprobar los resultados
+
+        2.3. ¿Se ha recuperado nos datos que estaban eliminados?
+
+        2.4. Al USB hay que realizar un "formateo rapido" ofrecido por Windows. ¿Se ouede recuperar la información con ambas herramientas?
+
+        2.5. ¿Formateo completo, que pasa?
+        
+        2.6. usar la aplicación de sobreescritura del siguiente enlace: https://www.google.com/url?q=https://eraser.heidi.ie/download/&sa=D&source=docs&ust=1667577894709242&usg=AOvVaw14FjCC0DtC9Eth2JxBSUw5 
+        Comprobar si se puede recuperar la información del dispositivo con el software anterior.
