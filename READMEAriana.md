@@ -1,7 +1,7 @@
 # proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano
 proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created by GitHub Classroom
 
-# SPRINT 1
+# SPRINT 1: HARDENING DE UBUNTU
 0. Instalar ubuntu server 20.04 i instalar la grafica (gnome)
 1. Asegura las configuraciones globales.
 
@@ -27,7 +27,7 @@ proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created b
   
 3. Actualizacion de software
 
-# SPRINT 2
+# SPRINT 2: HARDENING WINDOWS
 0. Instalar S.O Windows 10
 1. Crear otro usuario administrador y otro de empleador.
 2. Desintalar programas que no estemos usando
@@ -46,3 +46,21 @@ proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created b
         6.2. Cifrado de disco
      
         6.3. Comentar como evitar el arranque de herramientas live
+
+#SPRINT 3 : COPIAS DE SEGURIDAD
+0. Copia 1 llamada “copia documentos”, tendrá las siguientes características:
+
+        0.1. copia cifrada con origen en la carpeta Documentos del servidor y destino tu cuenta de Google Drive. 
+  
+        0.2.Para esta carpeta solo podemos aceptar la pérdida de datos de máximo 1 hora de tiempo, y se genera información en esta carpeta de lunes a viernes. 
+        
+        0.3.Ten en cuenta que además de configurar la copia, es imprescindible comprobar la recuperación. Por ello se solicita una batería de pruebas con el fin de conocer el programa y comprobar que funciona correctamente.
+
+1. La copia 2 llamada “copia imágenes”, tendrá las siguientes características:
+
+        1.1.Copia sin cifrar con origen en la carpeta Imágenes del servidor y destino tu cuenta de Google Drive. 
+
+        1.2.Para esta carpeta solo podemos aceptar la pérdida de datos de máximo 1 día de tiempo, y se genera información en esta carpeta de lunes a domingo.
+ 
+        1.3.Ten en cuenta que además de configurar la copia, es imprescindible comprobar la recuperación. Por ello se solicita una batería de pruebas con el fin de conocer el programa y comprobar funciona correctamente.
+
