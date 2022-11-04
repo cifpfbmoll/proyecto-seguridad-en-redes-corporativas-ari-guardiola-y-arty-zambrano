@@ -48,6 +48,8 @@ proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created b
         6.3. Comentar como evitar el arranque de herramientas live
 
 # SPRINT 3 : COPIAS DE SEGURIDAD
+Antes de nada, hay que instalar el duplicati en Ubuntu Server
+
 0. Copia 1 llamada “copia documentos”, tendrá las siguientes características:
 
         0.1. copia cifrada con origen en la carpeta Documentos del servidor y destino tu cuenta de Google Drive. 
