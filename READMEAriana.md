@@ -64,7 +64,7 @@ proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created b
  
         1.3.Ten en cuenta que además de configurar la copia, es imprescindible comprobar la recuperación. Por ello se solicita una batería de pruebas con el fin de conocer el programa y comprobar funciona correctamente.
 
-2. Recuperación de datos perdisos
+2. Recuperación de datos perdidos
 
         2.1. Leer el enlace: https://www.lavanguardia.com/tecnologia/20160806/403712293181/metodo-gutmann-barcenas-disco-duro-pp-formatear-dos-pasadas.html 
 
