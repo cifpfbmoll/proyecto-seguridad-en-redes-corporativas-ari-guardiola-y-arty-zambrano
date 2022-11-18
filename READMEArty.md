@@ -121,6 +121,37 @@ US5 RECUPERACIÓN DE DATOS PERDIDOS.
    4. ¿Y SI HACEMOS UN FORMATEO COPLETO?
    
    5. PROBAMOS LA APLICACION ERASER DE SOBREESCRITURA, Y COMPRUEBA SI PUEDES RECUPERAR LA INFORMACIÓN DEL DISPOSITIVO CON EL SOFTWARE ANTERIOR.
+   
+   
+   
+  ### SPRINT 4 - HARDENING APACHE
+  
+  Máquina Virtual que tendrá un servidor Web Apache y que incorporará las medidas de seguridad correspondientes, la configuración se debe aplicar en los dos miembros del equipo.
+  
+  1. Instalación de Apache.
+  2. Configuraciones globales.
+  3. Ficheros de configuraciones.
+  4. Configuración de usuarios y grupos.
+  5. Ocultación de versiones.
+  6. Exposición mínima de módulos.
+  7. Creación de virtualhost con tu nombre y apellido.
+  8. Configuración múltiple y de contecto: directiva options.
+  9. Restricción de acceso al contenido: directiva Auth y Require. Aplica la      configuración para autenticar el acceso mediante digest a uno de los          directories de tu virtualHost.
+  10. Ficheros .htaccess. ¿Para qué sirven?
+  11. ¿Cómo podemos evitar el hotlinking? Compruébalo
+  12. Configuraciób HTTPS mediante let's encrypt o OpenSll. Crea los               certificados para que tu virtual-Host sea seguro, y obligatoriamente         los accesos sean por HTTPS.
+  13. Módulo mod secyrity. ¿Qué es mod_security?
+  14. Realiza un ataque DoS mediante Metasploit (Slowloris)  y comprueba que,       efectivamente el servidor está innaccesible.
+  15. Clona e instala las reglas recomendadas OWASP. Habilita mod_security.
+  16. Reglas para detectar SQLInjectio.
+  17. Realiza de nuevo el ataque DoS y comprueba que el servidor está               accesible.
+  
+  
+  
+   
+   
+   
+   
 
 
 
