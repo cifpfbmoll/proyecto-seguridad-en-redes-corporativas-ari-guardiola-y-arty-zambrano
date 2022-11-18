@@ -80,3 +80,38 @@ Antes de nada, hay que instalar el duplicati en Ubuntu Server
         
         2.6. usar la aplicación de sobreescritura del siguiente enlace: https://www.google.com/url?q=https://eraser.heidi.ie/download/&sa=D&source=docs&ust=1667577894709242&usg=AOvVaw14FjCC0DtC9Eth2JxBSUw5 
         Comprobar si se puede recuperar la información del dispositivo con el software anterior.
+        
+# SPRINT 4 : HARDENING APACHE
+
+0. Instalación de Apache.
+
+1. Configuraciones globales.
+
+2. Ficheros de configuraciones
+
+3. Configuración de usuarios y grupos
+
+4. Ocultación de versiones. 
+
+5. Exposición mínima de módulos.
+
+6. Creación de virtualhost con tu nombre y apellido.
+
+7.Configuración múltiple y de contexto: directiva options
+
+8. Restricción de acceso al contenido: directiva Auth y Require. Aplica la configuración para autenticar el acceso mediante digest a uno de los directorios de tu virtualHost.
+
+9. Ficheros .htaccess. ¿Para qué sirven?
+
+10. ¿Cómo podemos evitar el hotlinking? Compruébalo.
+
+11. Configuración HTTPS mediante let’s encrypt o OpenSSL. Crea los certificados para que tu virtualHost sea seguro, y obligatoriamente los accesos sean por HTTPS
+
+12. Módulo mod_security. ¿Qué es mod_security?
+
+13. Realiza un ataque DoS mediante Metasploit (Slowloris) y comprueba que efectivamente el servidor está inaccesible.
+
+14. Clona e instala las reglas recomendadas OWASP. Habilita mod_security
+
+15. Reglas para detectar SQLInjection
+Realiza de nuevo el ataque DoS y comprueba que el servidor está accesible.
