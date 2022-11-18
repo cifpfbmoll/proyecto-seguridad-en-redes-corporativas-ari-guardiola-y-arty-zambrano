@@ -97,7 +97,7 @@ Antes de nada, hay que instalar el duplicati en Ubuntu Server
 
 6. Creación de virtualhost con tu nombre y apellido.
 
-7.Configuración múltiple y de contexto: directiva options
+7. Configuración múltiple y de contexto: directiva options
 
 8. Restricción de acceso al contenido: directiva Auth y Require. Aplica la configuración para autenticar el acceso mediante digest a uno de los directorios de tu virtualHost.
 
