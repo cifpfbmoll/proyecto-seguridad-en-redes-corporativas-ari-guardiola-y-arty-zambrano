@@ -115,3 +115,52 @@ Antes de nada, hay que instalar el duplicati en Ubuntu Server
 
 15. Reglas para detectar SQLInjection
 Realiza de nuevo el ataque DoS y comprueba que el servidor está accesible.
+
+# SPRINT 5 : HARDENING SSH-APACHE
+
+0. Configuración de acceso
+
+        0.1. Instalación SSh
+        
+        0.2. Configuración de sesión
+        
+        0.3. Configuración de cifrado
+        
+1. Configuración de sudo 
+
+        1.1. Uso pty
+
+        1.2. Configuración de fichero log
+
+2. Configuración de servicios
+
+        2.1. Configuración de sincronización de tiempo
+
+        2.2. Servicios a desinstalar
+
+3. Configuración del sistema de ficheros
+
+        3.1. Definición de particiones
+
+        3.2. Configuración FSTAB
+
+4. Configuración de red
+
+        4.1. Redireccione y enrutados
+
+        4.2. Protocolos no habituales
+
+5. Configuración firewall --> UFW
+
+6. Comprobar el fichero de configuración de "Advanced Package Tools"
+
+7. Registros
+
+        7.1. Configuración "System Auditing"
+
+        7.2. Eventos a auditar
+
+        7.3. Configuración de RSYSLOG
+
+
+8. Doble factor de autennticación en SSH
