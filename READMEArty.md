@@ -153,7 +153,7 @@ US5 RECUPERACIÓN DE DATOS PERDIDOS.
   
  ## En el equipo del servidor, necesitamos el servicio SSH, por si nos queremos apoyar en él para realizar configuraciones en el equipo.
   
-  # 1. Realiza la instalación de tu servidor SSH siguiendo la guía del Incibe.
+  ### 1. Realiza la instalación de tu servidor SSH siguiendo la guía del Incibe.
   
          1.1 Instalación SSH Server.
          
@@ -182,7 +182,7 @@ US5 RECUPERACIÓN DE DATOS PERDIDOS.
                1.5.1 Configuración de sincronización de tiempo
                1.5.2 Servicios a desinstalar               
         
-  # 2. Además, investiga coómo habilitar el doble factor de autenticación en el servicio SSH, configura y comprueba su correcto funcionamiento.
+  ### 2. Además, investiga cómo habilitar el doble factor de autenticación en el servicio SSH, configura y comprueba su correcto funcionamiento.
   
   
    
