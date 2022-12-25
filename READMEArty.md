@@ -1,7 +1,7 @@
 # proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano
 
 
-SPRINT 1 - HARDENING DE UBUNTU
+### SPRINT 1 - HARDENING DE UBUNTU
 
 1. INSTALA UBUNTU Y APLICA LAS CONFIGURACIONES QUE SE COMENTAN EN EL SEMINARO DE INCIBE.
 
@@ -35,7 +35,7 @@ SPRINT 1 - HARDENING DE UBUNTU
 
 
 
-SPRINT 2 - HARDENING DE WINDOWS
+### SPRINT 2 - HARDENING DE WINDOWS
 
 US3 Los equipos de los empleados de son ordenadores portátiles, ya que necesitan en ocasiones teletrabajar.
 
@@ -70,7 +70,7 @@ US3 Los equipos de los empleados de son ordenadores portátiles, ya que necesita
 
 
 
-SPRINT 3 - COPIAS DE SEGURIDAD
+### SPRINT 3 - COPIAS DE SEGURIDAD
 
 
 US4 COPIAS DE SEGURIDAD. ACTUALMENTE GRAN VARIEDAD DE SOLUCIONES BACKUP EN EL MERCADO. IMPORTANTE ELEGIR EL SOFTWARE QUE NOS APORTE TRANQUILIDAD Y SE AJUESTE A LAS NECESIDADES. LO PRINCIPAL ES ASEGURARNOS QUE EL PROGRAMA QUE SELECCIONAMOS NOS OFRECE LA FIABILIDAD Y CUBRE NECESIDADES. iMPRESCINDIBLE PROBARLO BIEN Y COMPROBAR RESTAURACIÓN DE LAS COPIAS CORRECTAS.
@@ -145,7 +145,44 @@ US5 RECUPERACIÓN DE DATOS PERDIDOS.
   15. Clona e instala las reglas recomendadas OWASP. Habilita mod_security.
   16. Reglas para detectar SQLInjectio.
   17. Realiza de nuevo el ataque DoS y comprueba que el servidor está               accesible.
+
+
+
+
+ ### SPRINT 5 - HARDENING SSH-APACHE
   
+ ## En el equipo del servidor, necesitamos el servicio SSH, por si nos queremos apoyar en él para realizar configuraciones en el equipo.
+  
+  # 1. Realiza la instalación de tu servidor SSH siguiendo la guía del Incibe.
+  
+         1.1 Instalación SSH Server.
+         
+         1.2 Configuración de sesión.
+               1.2.1 Deshabilitar versión 1
+               1.2.2 Habilitar SSH PAM
+               1.2.3 Configurar MaxStartups
+               1.2.4 Configurar timeout
+               1.2.5 MaxAuth Tries
+               1.2.6 IgnoreRhots
+               1.2.7 HostbasedAuthentication
+               1.2.8 PermitEmptyPasswords
+               1.2.9 PermitRootLogin
+               
+          1.3 Configuración del cifrado.
+               1.3.1 Algoritmos de cifrado robustos
+               1.3.2 Algoritmos MAC robustos
+               1.3.3 Algoritmos de intercambio robustos
+               
+          1.4 Configuración de sudo.
+               1.4.1 Uso de pty
+               1.4.2 Configurar el fichero log
+               1.4.3 Configurar sudo individual, grupos
+               
+          1.5 Configuración de servicios.  
+               1.5.1 Configuración de sincronización de tiempo
+               1.5.2 Servicios a desinstalar               
+        
+  # 2. Además, investiga coómo habilitar el doble factor de autenticación en el servicio SSH, configura y comprueba su correcto funcionamiento.
   
   
    
