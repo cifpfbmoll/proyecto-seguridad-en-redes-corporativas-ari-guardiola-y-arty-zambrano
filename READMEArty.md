@@ -172,21 +172,9 @@ US5 RECUPERACIÓN DE DATOS PERDIDOS.
                1.3.1 Algoritmos de cifrado robustos
                1.3.2 Algoritmos MAC robustos
                1.3.3 Algoritmos de intercambio robustos
-               
-          
-      ### 2. Además, investiga cómo habilitar el doble factor de autenticación en el servicio SSH, configura y comprueba su correcto funcionamiento.
-  
-  
-   
-   
-   
-   
 
 
-
-
-
-
+ ### 2. Además, investiga cómo habilitar el doble factor de autenticación en el servicio SSH, configura y comprueba su correcto funcionamiento.
 
 
 
