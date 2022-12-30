@@ -173,16 +173,8 @@ US5 RECUPERACIÓN DE DATOS PERDIDOS.
                1.3.2 Algoritmos MAC robustos
                1.3.3 Algoritmos de intercambio robustos
                
-          1.4 Configuración de sudo.
-               1.4.1 Uso de pty
-               1.4.2 Configurar el fichero log
-               1.4.3 Configurar sudo individual, grupos
-               
-          1.5 Configuración de servicios.  
-               1.5.1 Configuración de sincronización de tiempo
-               1.5.2 Servicios a desinstalar               
-        
-  ### 2. Además, investiga cómo habilitar el doble factor de autenticación en el servicio SSH, configura y comprueba su correcto funcionamiento.
+          
+      ### 2. Además, investiga cómo habilitar el doble factor de autenticación en el servicio SSH, configura y comprueba su correcto funcionamiento.
   
   
    
