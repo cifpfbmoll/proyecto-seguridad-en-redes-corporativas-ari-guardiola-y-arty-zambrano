@@ -127,3 +127,10 @@ Realiza de nuevo el ataque DoS y comprueba que el servidor está accesible.
         0.3. Configuración de cifrado
 
 1. Doble factor de autennticación en SSH
+
+        1.1. Instalar i configurar paquetes requeridos
+
+
+        1.2. Configurar la autenticación
+
+        1.3. Añadir el secreto a “Google Authenticator”
