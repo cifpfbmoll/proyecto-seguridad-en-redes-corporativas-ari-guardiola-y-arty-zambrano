@@ -64,3 +64,14 @@ SPRINT V: HARDENING SSH
   2. Configuración de sesión.
   3. Configuración de cifrado.
   4. Doble factor de autenticación.
+
+
+
+SPRINT VI: ESCANEO DE VULNERABILIDADES
+
+  * Objetivo: Conocer las principales herramientas de reconocimiento de vulnerabilidades, las       cuales ayudan a prevenir futuros ataques al sistema.
+  * Lo que hay que hacer:
+    1. Descargar e instalar la MV Metasploit2. 
+    2. Realizar un escaneo del servidor con cualquiera de estas herramientas:
+       a. Herramienta GUI: Nessus u Openvas.
+       b. Nmap: Tener en cuenta su CheatSheet.
