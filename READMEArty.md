@@ -38,7 +38,7 @@
 
 ### SPRINT 2 - HARDENING DE WINDOWS
 
-US3 Los equipos de los empleados de son ordenadores portátiles, ya que necesitan en ocasiones teletrabajar.
+US3 Los equipos de los empleados de la empresa son ordenadores portátiles, ya que necesitan en ocasiones teletrabajar.
 
 1. Instala un S.O. Windows 11 o 10. Para simular en mejores condiciones la red local de los empleados del entorno empresarial, este equipo Windows 10 tendrá un usuario local (tu nombre y apellidos, sin active directory)
 
