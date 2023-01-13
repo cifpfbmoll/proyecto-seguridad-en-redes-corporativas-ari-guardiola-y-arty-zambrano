@@ -1,5 +1,5 @@
 ## PROYECTO-SEGURIDAD-EN-REDES-CORPORATIVAS
-### Ari Guardiola, Felia Sánchez y Arty Zambrano
+### Ari Guardiola, Felipe Sánchez y Arty Zambrano
 
 
 ### SPRINT 1 - HARDENING DE UBUNTU
