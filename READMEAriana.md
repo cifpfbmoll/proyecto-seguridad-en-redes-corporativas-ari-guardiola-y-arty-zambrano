@@ -134,3 +134,9 @@ Realiza de nuevo el ataque DoS y comprueba que el servidor está accesible.
         1.2. Configurar la autenticación
 
         1.3. Añadir el secreto a “Google Authenticator”
+
+# SPRINT 6 : ESCANEO DE VULNERABILIDADES
+
+1. Descargar herramienta Nessus
+
+2. Nmap --> investigar y realizar un escaneo de vulnerabilidades sobre equipos
