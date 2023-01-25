@@ -181,15 +181,15 @@ US5 RECUPERACIÓN DE DATOS PERDIDOS.
  
  ### SPRINT 6 ESCANEO DE VULNERABILIDADES
  
-   ## ESCANEO VULNERABILIDDES. Objetivo de este sprint conocer las principales herramientas de         reconocimiento de vulnerabilidades. Estas herramientas ayudan a prevenir futuros ataques, y       por tanto, es fundamental su uso por parte de los administradores de sistemas. 
+   ## ESCANEO VULNERABILIDADES. Objetivo de este sprint conocer las principales herramientas de reconocimiento de vulnerabilidades. Estas herramientas ayudan a prevenir futuros ataques, y por tanto, es fundamental su uso por parte de los administradores de sistemas. 
    
-      1. Realiza un escaneo a tu servidor, y a una máquina llamada METASPLOTAIBLE2 (descarga la            máquina e incorpórala en tu virtualbox), que es ampliamente conocida por sus                      vulnerabilidades.
+      1. Realiza un escaneo a tu servidor, y a una máquina llamada METASPLOTAIBLE2 (descarga la máquina e incorpórala en tu virtualbox), que es ampliamente conocida por sus vulnerabilidades.
       
-   ## Teniendo en cuenta la información anterior, realiza un escaneo sobre tu servidor y               metasplotaible2, utilizando las siguientes herramientas.
+   ## Teniendo en cuenta la información anterior, realiza un escaneo sobre tu servidor y metasplotaible2, utilizando las siguientes herramientas.
    
-      1. Herramienta GUI. Las herramientas más utilizadas con entorno gráfico son NESSUS u                OPENVAS (eligue uno de los dos) Descarga e instala NESSUS ESSENTIALS obteniendo una              cuenta educativa y utilizando su imagen oficial Docker. Si quieres utilizar OpenVas              puedes utilizar esta imagen OPENVAS.
+      1. Herramienta GUI. Las herramientas más utilizadas con entorno gráfico son NESSUS u OPENVAS (eligue uno de los dos) Descarga e instala NESSUS ESSENTIALS obteniendo una cuenta educativa y utilizando su imagen oficial Docker. Si quieres utilizar OpenVas puedes utilizar esta imagen OPENVAS.
       
-      2. NMAP es otra herramienta muy utilizada. Teniendo en cuenta su cheatSheet, investiga y            realiza un escaneo de vulnerabilidades sobre los dos equipos.
+      2. NMAP es otra herramienta muy utilizada. Teniendo en cuenta su cheatSheet, investiga y realiza un escaneo de vulnerabilidades sobre los dos equipos.
 
 
 
