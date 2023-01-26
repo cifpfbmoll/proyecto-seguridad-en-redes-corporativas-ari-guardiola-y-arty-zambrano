@@ -137,6 +137,6 @@ Realiza de nuevo el ataque DoS y comprueba que el servidor está accesible.
 
 # SPRINT 6 : ESCANEO DE VULNERABILIDADES
 
-1. Descargar herramienta Nessus
+1. Descargar herramienta OpenVas
 
 2. Nmap --> investigar y realizar un escaneo de vulnerabilidades sobre equipos
