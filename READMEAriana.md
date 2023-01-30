@@ -137,6 +137,8 @@ Realiza de nuevo el ataque DoS y comprueba que el servidor está accesible.
 
 # SPRINT 6 : ESCANEO DE VULNERABILIDADES
 
-1. Descargar herramienta OpenVas
+0. Descargar herramienta OpenVas
 
-2. Nmap --> investigar y realizar un escaneo de vulnerabilidades sobre equipos
+        0.1. Escanenrar vulnerabilidades que hay entre en una maquina servidor que yo configuré y otra maquina especifica que es un metasploitable.
+
+1. Nmap --> investigar y realizar un escaneo de vulnerabilidades sobre equipos
