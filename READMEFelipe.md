@@ -75,3 +75,7 @@ SPRINT VI: ESCANEO DE VULNERABILIDADES
     2. Realizar un escaneo del servidor con cualquiera de estas herramientas:
        a. Herramienta GUI: Nessus u Openvas.
        b. Nmap: Tener en cuenta su CheatSheet.
+       
+       
+       
+SPRINT VII: PFSENSE
