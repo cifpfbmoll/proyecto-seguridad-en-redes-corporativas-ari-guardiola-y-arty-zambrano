@@ -190,7 +190,25 @@ US5 RECUPERACIÓN DE DATOS PERDIDOS.
       3. Descarga e instalación de máquina Metasploitable2 en VirtualBox.
       4. Inicio escaneo de vulnerabilidades con Openvas a Metasploitable2
       5. Escaneo de vulnerabilidades con Nmap a nuestro servidor con hardening Ubuntu.
-      6. Escaneo de vulnerabilidades con Nmap VM (virtual machine) con Metasploitable2.    
+      6. Escaneo de vulnerabilidades con Nmap VM (virtual machine) con Metasploitable2. 
+      
+
+
+### SPRINT 7 SEGURIDAD PERIMETRAL CON PFSENSE
+
+Objetivo de este sprint poner en práctica los conocimientos adquiridos sobre seguridad perimetral y aplicar una arquitectura adecuada que asegure perimetralmente el sistema empleando una arquitectura Screened Subnet (DMZ)
+Para ello realizaremos lo siguiente:
+
+      1. Instalar Pfsense con tres tarjetas de rec: Wan (adaptador puente, Lan DMZ (Red Nat 10.0.3.0/24) y Lan Empleados (Red Nat 10.0.2.0/24).
+      2. Configurar el servidor adjudicando a su tarjeta de red Lan DMZ.
+      3. Configurar el equipo del empleado adjudicando a su tarjeta de red Lan empleados.
+      4. Utilizar la herramienta de ping Pfsense, y comprobar que el servidor y el equipo empleado son accesibles desde Pfsense.
+      5. Realizar un ping desde tu equipo local a Pfsense. Está inaccesible ya que por defecto se bloquean estas acciones.
+      6. Aplicar una regla para que se permita hacer pings a Pfsense
+      7. Con la situación actual, las peticiones desde la Wan al servidor web, no serán atendidas. Comprobarlo.
+      8. Incluir una regla Nat Pfsense, de manera que las peticiones que lleguen al puerto 80 0 443 sean dirigidas al servidor web.
+      9. Aplicar una regla de manera que se bloquee todo el tráfico en el puerto 80. Comprobarlo.
+      10. Incluye una regla Nat Pfsense, de manera que las peticiones que lleguen al puerto del servidor SSH sean redirigidas al servidor SSH.
   
    
   
