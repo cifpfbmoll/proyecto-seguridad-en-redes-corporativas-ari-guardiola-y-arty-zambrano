@@ -142,3 +142,27 @@ Realiza de nuevo el ataque DoS y comprueba que el servidor está accesible.
         0.1. Escanenrar vulnerabilidades que hay entre en una maquina servidor que yo configuré y otra maquina especifica que es un metasploitable.
 
 1. Nmap --> investigar y realizar un escaneo de vulnerabilidades sobre equipos
+
+# SPRINT 7 : SEGURIDAD PERIMETRAL CON PFSENSE
+
+0. Instalar Pfsense con tres tarjetas de red: Wan (adaptador puente, Lan DMZ (Red Nat 10.0.3.0/24) y Lan Empleados (Red Nat 10.0.2.0/24).
+
+1. Configurar el servidor adjudicando a su tarjeta de red Lan DMZ.
+
+2. Configurar el equipo del empleado adjudicando a su tarjeta de red Lan Empleado.
+
+3. Utilizar la herramienta de ping de Pfsense, y comprueba que efectivamente el servidor y el equipo del empleado es accesible desde pfsense.
+
+4. RealizaR un ping desde tu equipo local a Pfsense. Se supone que estará inaccesible, ya que por defecto se bloquean estas acciones. Compruébalo.
+
+5. AplicaR una regla para que se permitan pings a Pfsense.
+
+6. Con la situación actual, las peticiones desde la Wan al servidor web, no serán atendidas (normal, no hemos configurado nada para que se puedan llevar a cabo). Compruébalo.
+
+7. Incluye una regla Nat Pfsense, de manera que las peticiones que lleguen al puerto 80 o 443 sean redirigidas al servidor Web. Comprueba que funciona tu configuración tanto en el puerto 80 como el 443.
+
+8. Aplicar una regla de manera que se bloquee todo el tráfico en el puerto 80. Compruébalo.
+
+9. Incluye una regla Nat Pfsense, de manera que las peticiones que lleguen al puerto del servidor SSH sean redirigidas al servidor SSH. Comprueba que funciona tu configuración.
+
+
