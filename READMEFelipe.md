@@ -92,3 +92,12 @@ SPRINT VII: PFSENSE
     6. Incluye una regla Nat Pfsense, de manera que las peticiones que lleguen al puerto 80 o 443 sean redirigidas al servidor Web. Comprueba que funciona tu                  configuración tanto en el puerto 80 como el 443.
     7. Aplica una regla de manera que se bloquee todo el tráfico en el puerto 80. Compruébalo.
     8. Incluye una regla Nat Pfsense, de manera que las peticiones que lleguen al puerto del servidor SSH sean redirigidas al servidor SSH. Comprueba que funciona tu configuración.
+SPRINT VIII: IDS Y VPN CON PFSENSE
+
+El objetivo de este sprint es poner en práctica los conocimientos adquiridos sobre seguridad perimetral, y configurar el cortafuegos pfSense habilitando el servicio IDS/IPS y servidor VPN correctamente.
+Para ello se propone:
+Instala IDS/IPS Suricata siguiendo esta guía.
+Aplica las reglas de la comunidad Snort.
+Antes de habilitar Suricata, realiza un ataque DoS sobre el servidor Web. 
+Habilita el IDS, y vuelve a realizar el ataque, comprobando que aparece en el log el ataque que se está realizando, además de proteger del mismo.
+Habilita el servidor VPN en pfSense siguiendo la guía. Comprueba su funcionamiento.
