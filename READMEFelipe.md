@@ -79,3 +79,16 @@ SPRINT VI: ESCANEO DE VULNERABILIDADES
        
        
 SPRINT VII: PFSENSE
+
+  * Objetivo: Poner en práctica los conocimientos adquiridos sobre seguridad perimetral, y aplicar una arquitectura adecuada que asegure perimetralmente el sistema                   empleando una arquitectura Screened Subnet (DMZ).
+  * Lo que hay que hacer: 
+    1. Instala Pfsense con tres tarjetas de red: Wan (adaptador puente, Lan DMZ (Red Nat 10.0.3.0/24) y Lan Empleados (Red Nat 10.0.2.0/24).
+    2. Configura el servidor adjudicando a su tarjeta de red Lan DMZ.
+    3. Configura el equipo del empleado adjudicando a su tarjeta de red Lan Empleados.
+    4. Utiliza la herramienta de ping de Pfsense, y comprueba que efectivamente el servidor y el equipo del empleado es accesible desde pfsense.
+       a. Realiza un ping desde tu equipo local a Pfsense. Se supone que estará inaccesible, ya que por defecto se bloquean estas acciones. Compruébalo.
+    5. Aplica una regla para que se permitan pings a Pfsense.
+       a. Con la situación actual, las peticiones desde la Wan al servidor web, no serán atendidas (normal, no hemos configurado nada para que se puedan llevar a cabo). Compruébalo.
+    6. Incluye una regla Nat Pfsense, de manera que las peticiones que lleguen al puerto 80 o 443 sean redirigidas al servidor Web. Comprueba que funciona tu                  configuración tanto en el puerto 80 como el 443.
+    7. Aplica una regla de manera que se bloquee todo el tráfico en el puerto 80. Compruébalo.
+    8. Incluye una regla Nat Pfsense, de manera que las peticiones que lleguen al puerto del servidor SSH sean redirigidas al servidor SSH. Comprueba que funciona tu configuración.
