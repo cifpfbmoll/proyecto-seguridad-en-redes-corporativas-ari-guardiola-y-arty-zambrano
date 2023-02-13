@@ -209,7 +209,15 @@ Para ello realizaremos lo siguiente:
       8. Incluir una regla Nat Pfsense, de manera que las peticiones que lleguen al puerto 80 0 443 sean dirigidas al servidor web.
       9. Aplicar una regla de manera que se bloquee todo el tráfico en el puerto 80. Comprobarlo.
       10. Incluye una regla Nat Pfsense, de manera que las peticiones que lleguen al puerto del servidor SSH sean redirigidas al servidor SSH.
-  
+      
+### SPRINT 8 IDS Y VPN CON PFSENSE
+
+Objetivo poner en práctica los conocimientos adquiridos sobre seguridad perimetral y configurar el contafuegos pfSense habilitando el servicio IDS/IPS y servidor VPN correctamente.
+   1. Instalar IDS/IPS Suricata.
+   2. Aplicar las reglas de la comunidad Snort.
+   3. Antes de habilitar Suricata, realizar un ataque DoS sobre el servidor Web.
+   4. Habilitar el IDS, volver a realizar el ataque, comprobar que aparece en el log el ataque que se está realizando, además de proteger del mismo.
+   5. Habilita el servidor VPN en pfSense. Comprobar funcionamiento.
    
   
 
