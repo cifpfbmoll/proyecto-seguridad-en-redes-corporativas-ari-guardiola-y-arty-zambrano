@@ -165,4 +165,15 @@ Realiza de nuevo el ataque DoS y comprueba que el servidor está accesible.
 
 9. Incluye una regla Nat Pfsense, de manera que las peticiones que lleguen al puerto del servidor SSH sean redirigidas al servidor SSH. Comprueba que funciona tu configuración.
 
+# SPRINT 8 : IDSY VPN CON PFSENSE
+
+0. Instala IDS/IPS Suricata 
+
+1. Aplica las reglas de la comunidad Snort
+
+2. Antes de habilitar Suricata, realiza un ataque DoS sobre el servidor Web. 
+
+3. Habilita el IDS, y vuelve a realizar el ataque, comprobando que aparece en el log el ataque que se está realizando, además de proteger del mismo.
+
+4. Habilita el servidor VPN en pfSense 
 
