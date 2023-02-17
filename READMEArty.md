@@ -219,9 +219,20 @@ Objetivo poner en práctica los conocimientos adquiridos sobre seguridad perimet
    4. Habilitar el IDS, volver a realizar el ataque, comprobar que aparece en el log el ataque que se está realizando, además de proteger del mismo.
    5. Habilita el servidor VPN en pfSense. Comprobar funcionamiento.
    
-  
+### SPRINT 10 ALTA DISPONIBILIDAD
 
+   1. PROXY INVERSO. HABILITAR UN PROXY INVERSO.
+   
+         1.1 Configurar Apache para que realice las tareas de Proxy inverso, llevando estas                    peticiones al servidor de aplicaciones Tomcat.
+         
+   2. APACHE BALANCER.
 
+         1.1 Definir 3 nodos en Tomcat en diferentes puertos.
+         1.2 En Apache debemos definir el balanceador.
+         1.3 El balanceador definido tendrá tres miembros, serán los nodos definidos en Tomcat
+         1.4 El método de balanceo del servidor será by requests, teniendo el primer nodo el                  triple de carga que el otro nodo segundo.
+         1.5 El tercer nodo actuará como hot-standby.
+         1.6 Se debe activar el balancer-manager.
 
 
 
