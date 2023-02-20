@@ -177,3 +177,14 @@ Realiza de nuevo el ataque DoS y comprueba que el servidor está accesible.
 
 4. Habilita el servidor VPN en pfSense 
 
+# SPRINT 10 : ALTA DISPONIBILIDAD
+
+0. Definir 3 nodos de TOMCAT en diferentes puertos (cluster9.
+
+1. Definir balanceador a apache (con nuestro apellido)
+
+2. El método de balanceo del servidor será byrequests, teniendo el “primer” nodo el triple de carga que el otro nodo “segundo”
+
+3. El “tercer nodo” actuará como “hot-standby”
+
+4. Activar el balancer-manager
