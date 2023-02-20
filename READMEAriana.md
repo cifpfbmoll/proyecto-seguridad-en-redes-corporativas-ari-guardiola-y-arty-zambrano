@@ -179,7 +179,7 @@ Realiza de nuevo el ataque DoS y comprueba que el servidor está accesible.
 
 # SPRINT 10 : ALTA DISPONIBILIDAD
 
-0. Definir 3 nodos de TOMCAT en diferentes puertos (cluster9.
+0. Definir 3 nodos de TOMCAT en diferentes puertos (cluster)
 
 1. Definir balanceador a apache (con nuestro apellido)
 
