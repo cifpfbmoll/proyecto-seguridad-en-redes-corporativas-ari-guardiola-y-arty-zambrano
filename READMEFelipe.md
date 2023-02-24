@@ -58,7 +58,7 @@ proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created b
 
 
 
-*SPRINT V: HARDENING SSH
+*SPRINT V: HARDENING SSH*
 
   1. Instalación de SSH.
   2. Configuración de sesión.
@@ -67,7 +67,7 @@ proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created b
 
 
 
-*SPRINT VI: ESCANEO DE VULNERABILIDADES
+*SPRINT VI: ESCANEO DE VULNERABILIDADES*
 
   * Objetivo: Conocer las principales herramientas de reconocimiento de vulnerabilidades, las       cuales ayudan a prevenir futuros ataques al sistema.
   * Lo que hay que hacer:
@@ -78,7 +78,7 @@ proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created b
        
        
        
-*SPRINT VII: PFSENSE
+*SPRINT VII: PFSENSE*
 
   * Objetivo: Poner en práctica los conocimientos adquiridos sobre seguridad perimetral, y aplicar una arquitectura adecuada que asegure perimetralmente el sistema                   empleando una arquitectura Screened Subnet (DMZ).
   * Lo que hay que hacer: 
@@ -95,7 +95,7 @@ proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created b
   
   
   
-*SPRINT VIII: IDS Y VPN CON PFSENSE
+*SPRINT VIII: IDS Y VPN CON PFSENSE*
 
   * Objetivo: Poner en práctica los conocimientos adquiridos sobre seguridad perimetral, y configurar el cortafuegos pfSense habilitando el servicio IDS/IPS y servidor     VPN correctamente.
   * Lo que hay que hacer:
@@ -106,9 +106,9 @@ proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created b
     5. Habilita el servidor VPN en pfSense siguiendo la guía. Comprueba su funcionamiento.
 
 
-*SPRINT IX: (Visto como actividad interactiva en clase, no se puso cómo un Sprint completo).
+*SPRINT IX: (Visto como actividad interactiva en clase, no se puso cómo un Sprint completo).*
 
-*SPRINT X: ALTA DISPONINILIDAD
+*SPRINT X: ALTA DISPONINILIDAD*
 
   * Objetivo: Se debe poner en práctica los conocimientos sobre balanceo de carga con Apache que hará tarea de proxy inverso y balanceador de carga.
   * Lo que hay que hacer:
