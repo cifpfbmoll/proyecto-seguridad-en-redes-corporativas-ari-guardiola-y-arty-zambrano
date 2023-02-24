@@ -8,7 +8,7 @@ proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created b
 
 
 
-*SPRINT II: HARDENING DE WINDOWS
+*SPRINT II: HARDENING DE WINDOWS*
 
   1. Crear otro usuario administrador y otro de empleador.
   2. Desintalar programas que no estemos usando.
@@ -19,7 +19,7 @@ proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created b
 
 
 
-*SPRINT III: COPIAS DE SEGURIDAD
+*SPRINT III: COPIAS DE SEGURIDAD*
 
   1. se solicita realizar dos copias de seguridad diferente:
      a. La copia 1 llamada “copia documentos”, tendrá las siguientes características:
@@ -36,7 +36,7 @@ proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created b
 
  
 
-*SPRINT IV: HARDENING APACHE
+*SPRINT IV: HARDENING APACHE*
 
   1. Instalación de Apache.
   2. Configuraciones globales.
