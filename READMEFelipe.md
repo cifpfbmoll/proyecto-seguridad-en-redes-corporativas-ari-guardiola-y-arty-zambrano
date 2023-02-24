@@ -110,4 +110,12 @@ SPRINT IX: (Visto como actividad interactiva en clase, no se puso cómo un Sprin
 
 SPRINT X: ALTA DISPONINILIDAD
 
-  * 
+  * Objetivo: Se debe poner en práctica los conocimientos sobre balanceo de carga con Apache que hará tarea de proxy inverso y balanceador de carga.
+  * Lo que hay que hacer:
+    1. Configurar Apache para que realice tareas de Proxy inverso, llevando peticiones al servidor de aplicaciones Tomcat.
+    2. Definir 3 nodos en Tomcat en diferentes puertos.
+    3. En Apache debemos definir el balanceador.
+    4. El balanceador definido tendrá 3 miembros, serán los nodos definidos en Tomcat.
+    5. El método de balanceo del servidor será by requests, primer nodo triple de carga el nodo segundo.
+    6. El tercer nodo actuará como hot-standby.
+    7. Activación del balancer-manager.
