@@ -1,6 +1,6 @@
 # proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano
 proyecto-seguridad-en-redes-corporativas-ari-guardiola-y-arty-zambrano created by GitHub Classroom
-SPRINT I: HARDENING DE UBUNTU
+*SPRINT I: HARDENING DE UBUNTU
 
   1. Asegura las configuraciones globales.
   2. Configuración de usuarios y grupos.
@@ -8,7 +8,7 @@ SPRINT I: HARDENING DE UBUNTU
 
 
 
-SPRINT II: HARDENING DE WINDOWS
+*SPRINT II: HARDENING DE WINDOWS
 
   1. Crear otro usuario administrador y otro de empleador.
   2. Desintalar programas que no estemos usando.
@@ -19,7 +19,7 @@ SPRINT II: HARDENING DE WINDOWS
 
 
 
-SPRINT III: COPIAS DE SEGURIDAD
+*SPRINT III: COPIAS DE SEGURIDAD
 
   1. se solicita realizar dos copias de seguridad diferente:
      a. La copia 1 llamada “copia documentos”, tendrá las siguientes características:
@@ -36,7 +36,7 @@ SPRINT III: COPIAS DE SEGURIDAD
 
  
 
-SPRINT IV: HARDENING APACHE
+*SPRINT IV: HARDENING APACHE
 
   1. Instalación de Apache.
   2. Configuraciones globales.
@@ -58,7 +58,7 @@ SPRINT IV: HARDENING APACHE
 
 
 
-SPRINT V: HARDENING SSH
+*SPRINT V: HARDENING SSH
 
   1. Instalación de SSH.
   2. Configuración de sesión.
@@ -67,7 +67,7 @@ SPRINT V: HARDENING SSH
 
 
 
-SPRINT VI: ESCANEO DE VULNERABILIDADES
+*SPRINT VI: ESCANEO DE VULNERABILIDADES
 
   * Objetivo: Conocer las principales herramientas de reconocimiento de vulnerabilidades, las       cuales ayudan a prevenir futuros ataques al sistema.
   * Lo que hay que hacer:
@@ -78,7 +78,7 @@ SPRINT VI: ESCANEO DE VULNERABILIDADES
        
        
        
-SPRINT VII: PFSENSE
+*SPRINT VII: PFSENSE
 
   * Objetivo: Poner en práctica los conocimientos adquiridos sobre seguridad perimetral, y aplicar una arquitectura adecuada que asegure perimetralmente el sistema                   empleando una arquitectura Screened Subnet (DMZ).
   * Lo que hay que hacer: 
@@ -95,7 +95,7 @@ SPRINT VII: PFSENSE
   
   
   
-SPRINT VIII: IDS Y VPN CON PFSENSE
+*SPRINT VIII: IDS Y VPN CON PFSENSE
 
   * Objetivo: Poner en práctica los conocimientos adquiridos sobre seguridad perimetral, y configurar el cortafuegos pfSense habilitando el servicio IDS/IPS y servidor     VPN correctamente.
   * Lo que hay que hacer:
@@ -106,9 +106,9 @@ SPRINT VIII: IDS Y VPN CON PFSENSE
     5. Habilita el servidor VPN en pfSense siguiendo la guía. Comprueba su funcionamiento.
 
 
-SPRINT IX: (Visto como actividad interactiva en clase, no se puso cómo un Sprint completo).
+*SPRINT IX: (Visto como actividad interactiva en clase, no se puso cómo un Sprint completo).
 
-SPRINT X: ALTA DISPONINILIDAD
+*SPRINT X: ALTA DISPONINILIDAD
 
   * Objetivo: Se debe poner en práctica los conocimientos sobre balanceo de carga con Apache que hará tarea de proxy inverso y balanceador de carga.
   * Lo que hay que hacer:
